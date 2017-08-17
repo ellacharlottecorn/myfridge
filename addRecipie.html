@@ -1,30 +1,46 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Add Recipe</title>
-  <link rel="stylesheet" type="text/css" href="theme.css">
-</head>
-<body>
-<div class="menu" id="myMenu">
-  <a href="https://ellacharlottecorn.github.io/myfridge/home.html">Home</a>
-  <a href="https://ellacharlottecorn.github.io/myfridge/fridge.html">MyFridge<a/>
-  <a href="https://ellacharlottecorn.github.io/myfridge/map.html">Food Map<a/>
-  <a href="https://ellacharlottecorn.github.io/myfridge/addRecipie.html">Add Recipes<a/>
-  <a href="https://ellacharlottecorn.github.io/myfridge/myProfile.html">MyProfile<a/>
-</div>
-<h1>Add Recipe</h1>
+  <head>
+    <title>Add Recipe</title>
+    <link rel="stylesheet" type="text/css" href="theme.css">
 
-<form action="/action_page.php">
-  Recipe Name:<br>
-  <input type="text" name="recipeName" value="">
-  <br>
-  Ingrediants:<br>
-  <input type="text" name="Ingrediants" value="">
-  <br>
-  Instructions:<br>
-  <input type="text" name="Instructions" value="">
-  <br><br>
-  <input type="submit" value="Submit">
+    <style>
+      div.content {
+        width: 60%;
 
-</body>
+      }
+      div.form {
+        font-size: larger;
+        font-family: arial black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="menu" id="myMenu">
+      <a href="https://ellacharlottecorn.github.io/myfridge/home.html" class="tab">Home</a>
+      <a href="https://ellacharlottecorn.github.io/myfridge/fridge.html" class="tab">MyFridge<a/>
+      <a href="https://ellacharlottecorn.github.io/myfridge/map.html" class="tab">Food Map<a/>
+      <a href="https://ellacharlottecorn.github.io/myfridge/addRecipie.html" class="tab">Add Recipes<a/>
+      <a href="https://ellacharlottecorn.github.io/myfridge/myProfile.html" class="tab">MyProfile<a/>
+    </div>
+
+    <div class="content">
+      <h1>Add Recipe</h1>
+
+      <div class="form">
+        <form>
+          Recipe Name: <input type="text" name="recipeName" value="">
+          <br><br>
+          Ingredients: <input type="text" name="Ingredients" value="">
+          <br><br>
+          Instructions:<input type="text" name="Instructions" value="">
+          <br><br>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+
+    </div>
+
+  </body>
 </html>
