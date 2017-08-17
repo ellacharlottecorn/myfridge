@@ -3,10 +3,10 @@
 <head>
 <style>
 body {
-    background-color: rgb(255, 230, 255);
+    background-color: rgb(153, 187, 255);
 }
 h1 {
-    color: rgb(102, 102, 153);
+    color: rgb(230, 115, 0);
     text-align: center;
     font-size: 50px;
     font-family: arial black;
@@ -17,13 +17,19 @@ h2 {
   font-size: 40px;
   font-family: arial black;
 }
+h3 {
+  position: fixed;
+  bottom: 49%;
+  left: 73%;
+  font-size: 25px;
+}
 div.menu {
   overflow: hidden;
 }
 div.menu a {
     float: left;
     display: block;
-    color: rgb(102, 102, 153);
+    color: rgb(255, 153, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -31,8 +37,8 @@ div.menu a {
     font-family: arial black;
 }
 div.menu a:hover {
-    background-color: grey;
-    color: white;
+    background-color: yellow;
+    color: rgb(255, 153, 0);
 }
 </style>
 
@@ -46,7 +52,14 @@ div.menu a:hover {
   <a href="https://github.com/ellacharlottecorn/myfridge.git">MyProfile<a/>
 </div>
 <h1>MyFridge</h1>
-<h2>&nbsp; &nbsp; &nbsp;Food &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Type &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Expiration &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Select</h2>
+<h2> Food &emsp; &nbsp; &ensp; Type &emsp; &ensp; &nbsp; Expiration &emsp; &ensp; &nbsp; Select </h2>
+<h3> <br> <form action="/action_page.php">
+<input type="checkbox" name="vehicle1" value="">
+<br>
+<input type="checkbox" name="vehicle2" value="">
+<br>
+<input type="submit">
+</form> </h3>
 
 
 </body>
