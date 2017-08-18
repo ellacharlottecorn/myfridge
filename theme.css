@@ -1,5 +1,6 @@
 body {
   background-color: rgb(196, 213, 235);
+  margin-left: 20px;
 }
 h1 {
   color: rgb(0, 102, 153);
@@ -52,4 +53,28 @@ Instructions:<br>
 div.form {
   font-size: larger;
   font-family: arial black;
+}
+
+input.first {
+    resize: horizontal;
+    width: 200px;
+    resize: vertical;
+    height: 20px;
+}
+
+input.second {
+    resize: horizontal;
+    width: 200px;
+    resize: vertical;
+    height: 100px;
+}
+
+input:active {
+    width: auto;
+    height: auto;
+}
+
+input:focus {
+    min-width: 200px;
+    min-height: 100px;
 }
