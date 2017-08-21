@@ -1,9 +1,37 @@
 <!DOCTYPE html>
 <html>
+<style>
+body {
+  background-color: rgb(196, 213, 235);
+  margin-left: 20px;
+}
+h1 {
+  color: rgb(0, 102, 153);
+  text-align: center;
+  font-size: 50px;
+  font-family: arial black;
+}
+div.menu {
+  overflow: hidden;
+}
+a.tab {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: arial black;
+}
+a.tab:hover {
+  background-color: rgb(0, 102, 153);
+  color: white;
+}
+</style>
   <head>
     <title>Add Recipe</title>
     <link rel="stylesheet" type="text/css" href="theme.css">
-
 
     <!-- /*<style>
       div.content {
@@ -47,12 +75,14 @@
 
 
       <h1>Add Recipe</h1>
-
       <div class="form">
         <form>
           Recipe Name: <input class="first" type="text" name="recipeName" value="">
           <br><br>
           Ingredients: <br><input class="second" type="text" name="Ingredients" value="">
+          <br><br>
+
+          Cook Time: <input class="first" type="text" name="cooktime" value="">
           <br><br>
           Instructions:<br><input class="second" type="text" name="Instructions" value="">
           <br><br>
@@ -60,7 +90,6 @@
         </form>
       </div>
 
-    </div>
 
   </body>
 </html>

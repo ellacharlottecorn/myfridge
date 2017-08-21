@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">*/
+
 body {
   background-color: rgb(196, 213, 235);
   margin-left: 20px;
@@ -54,6 +56,8 @@ div.form {
   font-size: larger;
   font-family: arial black;
 }
+
+
 
 input.first {
     resize: horizontal;
